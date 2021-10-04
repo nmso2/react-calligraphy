@@ -17,7 +17,6 @@ const Header = () => {
                         </Nav>
                         <Nav>
                             <Link className="text-decoration-none nav-link" to="/about">About</Link >
-                            <Link className="text-decoration-none nav-link" to="/news">News</Link >
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
