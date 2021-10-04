@@ -1,9 +1,14 @@
 import React from 'react';
+import useService from '../../hooks/useService';
+import Card from '../Card/Card';
 
 const Home = () => {
+    const [services, setServices] = useService();
     return (
         <div className="mt-5">
-            <h1 className="mt-5">Welcome Home</h1>
+            <div className="mt-5">
+                
+            </div>
         </div>
     );
 };
