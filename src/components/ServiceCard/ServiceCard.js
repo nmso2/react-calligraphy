@@ -1,21 +1,30 @@
 import React from 'react';
 import { Card, CardGroup, Col, Row } from 'react-bootstrap';
+import Rating from 'react-rating';
+
 
 const ServiceCard = (props) => {
     const { service, cost, img, duration } = props.service;
     return (
         <div>
-                <Card>
-                    <Card.Img variant="top" src={img} />
-                    <Card.Body>
-                        <Card.Title>{service}</Card.Title>
-                        <Card.Text>
-                            Only $ {cost}
-                            <br />
-                            Course Duration: {duration}
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
+            <Card>
+                <Card.Img variant="top" src={img} />
+                <Card.Body>
+                    <Card.Title>{service}</Card.Title>
+                    <Card.Text>
+                        Only $ {cost}
+                        <br />
+                        Course Duration: {duration}
+                        <br />
+                        <Rating
+                            initialRating={3}
+                            readonly
+                            emptySymbol="far fa-star text-warning"
+                            fullSymbol="fas fa-star text-warning"
+                        />
+                    </Card.Text>
+                </Card.Body>
+            </Card>
         </div>
     );
 };
