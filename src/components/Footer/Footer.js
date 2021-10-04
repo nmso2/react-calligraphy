@@ -9,35 +9,36 @@ const Footer = () => {
                     <div className="container px-4 py-2">
                         <div className="row mt-4">
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">See other books</h5>
+                                <h5 className="text-uppercase">Home</h5>
 
                                 <ul className="list-unstyled mb-0">
                                     <li>
-                                        <a href="#!" className="text-white text-decoration-none">Bestsellers</a>
+                                        <a href="#!" className="text-white text-decoration-none">Achievents
+</a>
                                     </li>
                                     <li>
-                                        <a href="#!" className="text-white text-decoration-none">All books</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">Execution of the contract</h5>
-
-                                <ul className="list-unstyled">
-                                    <li>
-                                        <a href="#!" className="text-white text-decoration-none">Supply</a>
-                                    </li>
-                                    <li>
-                                        <a href="#!" className="text-white text-decoration-none">Returns</a>
+                                        <a href="#!" className="text-white text-decoration-none">Services</a>
                                     </li>
                                 </ul>
                             </div>
                             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">Publishing house</h5>
+                                <h5 className="text-uppercase">Services</h5>
 
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a href="#!" className="text-white text-decoration-none">The BookStore</a>
+                                        <a href="#!" className="text-white text-decoration-none">Free</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" className="text-white text-decoration-none">Premium</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+                                <h5 className="text-uppercase">Address</h5>
+
+                                <ul className="list-unstyled">
+                                    <li>
+                                        <a href="#!" className="text-white text-decoration-none">The Calligraphy School</a>
                                     </li>
                                     <li>
                                         <a href="#!" className="text-white text-decoration-none">123 Street</a>
@@ -49,10 +50,10 @@ const Footer = () => {
 
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a href="#!" className="text-white text-decoration-none">Help in purchasing</a>
+                                        <a href="#!" className="text-white text-decoration-none">demo@calligraphy.com</a>
                                     </li>
                                     <li>
-                                        <a href="#!" className="text-white text-decoration-none">Check the order status</a>
+                                        <a href="#!" className="text-white text-decoration-none">Fax: +783501</a>
                                     </li>
                                 </ul>
                             </div>
