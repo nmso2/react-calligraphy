@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="position-absolute start-0 bottom-0 w-100 alert-dange">
+        <div className="start-0 bottom-0 w-100 alert-dange">
             <div>
 
                 <footer className="bg-dark text-center text-lg-start text-white">

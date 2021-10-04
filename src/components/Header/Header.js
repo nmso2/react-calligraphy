@@ -13,7 +13,7 @@ const Header = () => {
                         <Nav className="me-auto">
                             <Link className="text-decoration-none nav-link" to="/home">Home</Link>
                             <Link className="text-decoration-none nav-link" to="/services">Services</Link>
-                            <Link className="text-decoration-none nav-link" to="/gallary">Galary</Link>
+                            <Link className="text-decoration-none nav-link" to="/instructor">Instructor</Link>
                         </Nav>
                         <Nav>
                             <Link className="text-decoration-none nav-link" to="/about">About</Link >
