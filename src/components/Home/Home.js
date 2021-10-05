@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className="mt-5 container-fluid">
             <h1 className="mt-5 p-5 pb-0 text-start mb-0">Achievents</h1>
-            <Row xs={1} md={3} className="g-5 p-5 pt-2">
+            <Row xs={1} md={3} className="g-4 p-5 pt-2">
                 <Achievement>
                     <Card.Title>Best Calligraphy Award 2018</Card.Title>
                     <Card.Text>
@@ -31,7 +31,7 @@ const Home = () => {
                 </Achievement>
             </Row>
             <h1 className=" p-5 pb-0 text-start mb-0">Services</h1>
-            <Row xs={1} md={4} className="g-5 p-5">
+            <Row xs={1} md={4} className="g-4 p-5">
                 {
                     services.slice(0, 4).map(service => <ServiceCard service={service} key={service.key}></ServiceCard>)
                 }
