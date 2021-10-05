@@ -1,10 +1,10 @@
 import React from 'react';
-import { Card, CardGroup, Col, Row } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import Rating from 'react-rating';
 
 
 const ServiceCard = (props) => {
-    const { service, cost, img, duration } = props.service;
+    const { service, cost, img, duration, rating } = props.service;
     return (
         <div>
             <Card>
@@ -17,7 +17,7 @@ const ServiceCard = (props) => {
                         Course Duration: {duration}
                         <br />
                         <Rating
-                            initialRating={3}
+                            initialRating={rating}
                             readonly
                             emptySymbol="far fa-star text-warning"
                             fullSymbol="fas fa-star text-warning"

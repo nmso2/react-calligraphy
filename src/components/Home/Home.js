@@ -8,7 +8,7 @@ const Home = () => {
     const [services, setServices] = useService();
     console.log(services);
     return (
-        <div className="mt-5">
+        <div className="mt-5 container-fluid">
             <h1 className="mt-5 p-5 pb-0 text-start mb-0">Achievents</h1>
             <Row xs={1} md={3} className="g-5 p-5 pt-2">
                 <Achievement>
