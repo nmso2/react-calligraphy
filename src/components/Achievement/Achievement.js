@@ -4,12 +4,12 @@ import { Card } from 'react-bootstrap';
 const Achievement = (props) => {
     return (
         <div>
-            <Card>
-                    <Card.Body>
+            <Card className="shadow-lg">
+                <Card.Body>
                     <i className="fas fa-award text-warning fa-10x"></i>
-                        {props.children}
-                    </Card.Body>
-                </Card>
+                    {props.children}
+                </Card.Body>
+            </Card>
         </div>
     );
 };

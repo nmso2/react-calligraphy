@@ -5,7 +5,7 @@ const InstructorCard = (props) => {
     const { name, address, img, phone } = props.instructor;
     return (
         <div>
-            <Card>
+            <Card className="shadow-lg rounde">
                     <Card.Img variant="top" src={img} />
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>

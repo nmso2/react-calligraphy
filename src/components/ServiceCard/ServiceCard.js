@@ -7,7 +7,7 @@ const ServiceCard = (props) => {
     const { service, cost, img, duration, rating } = props.service;
     return (
         <div>
-            <Card>
+            <Card className="shadow-lg rounde">
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{service}</Card.Title>

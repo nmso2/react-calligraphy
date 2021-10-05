@@ -6,7 +6,7 @@ const AboutCart = (props) => {
 console.log(props.instructor)
     return (
         <div>
-            <Card>
+            <Card className="shadow-lg rounde">
                 <Card.Img variant="top" className="p-3" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
